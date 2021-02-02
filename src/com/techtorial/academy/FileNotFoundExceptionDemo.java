@@ -25,7 +25,6 @@ public class FileNotFoundExceptionDemo {
             while (fileReader.hasNextLine()) {
                 sb.append(fileReader.nextLine());
             }
-            fileReader.close();
         } catch (FileNotFoundException e) {
             System.out.println("File not found");
         } finally {
